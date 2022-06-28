@@ -166,11 +166,26 @@ h5{
 }
 #myCarousel .carousel-inner{
     height: 400px;
-}
-
+} 
 
 .ir-para-topo{
-    position: absolute;
+    position: fixed;
     bottom: 15px;
     right: 15px; 
+}
+.pesquisa-container input{
+    padding-right: 35px;
+}
+.pesquisa-container{
+    position: relative;
+}
+.pesquisa-container svg{
+    position: absolute;
+    top:28px;
+    right: 30px;
+}
+@media (min-width:991px){
+    .carousel-caption{
+        padding: 0px 15px;;
+    }
 }

@@ -189,3 +189,20 @@ h5{
         padding: 0px 15px;;
     }
 }
+.lista-tags{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.lista-tags > a{
+    border-width: 3px;
+    cursor: pointer;
+    border-color: var(--dark);
+    background-color: var(--dark);
+    color: #fff;
+    padding: 0.4rem 0.7rem;
+    font-size: 1.0rem;
+    border-radius: 0.5rem;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
